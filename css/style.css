@@ -1,0 +1,61 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.header {
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  padding: 30px;
+}
+
+#header-img {
+  width: 70%;
+  /* border-radius: 50%; */
+}
+
+#navbar {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 15px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+#navbar a:hover {
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  padding: 8px 15px;
+}
+
+#navbar .btn-contactme {
+  transition: 0.3s;
+  padding: 5px 10px;
+}
+
+.fixnavbar {
+  position: fixed;
+  top: 0;
+}
+
+#blogs img {
+  width: 100%;
+  height: 200px;
+}
+
+@media screen and (max-width: 547px) {
+  #navbar a{
+    font-size: 10px;
+  }
+}
